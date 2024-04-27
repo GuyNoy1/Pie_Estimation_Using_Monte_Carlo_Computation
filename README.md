@@ -6,5 +6,7 @@ Goal: Estimate π by Monte-Carlo computations
  throw darts at a square with size 1 in the following way:
   sample x & y randomly on (-1, 1)
   if x^2 + y^2 < 1 we will mark a hit (located inside the circle)
-  pie ~ 4 * ([#hits] / [#tries])
+  pie ~ 4 * ([#hits] / [#tries].
+  
 we used  MPI to parallelize our code.
+Added running time results and plots of speedup and efficiency. 
